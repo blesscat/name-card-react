@@ -1,0 +1,32 @@
+.card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 21.875rem;
+  height: 5.9375rem;
+  margin: .8rem .8rem;
+  border-radius: 8px;
+  box-shadow: .2rem .2rem 2rem .5rem #eaeaea;
+  &__avatar {
+    height: 70%;
+    margin: 0 1.875rem;
+  }
+  &__info {
+    color: #cacaca;
+    span {
+      display: block;
+      white-space: nowrap;
+      line-height: 1.7rem;
+    }
+  }
+  &.fade-enter {
+    position: relative;
+    bottom: -1rem;
+    opacity: 0.01;
+    &-active {
+      opacity: 1;
+      bottom: 0;
+      transition: 500ms ease-in;
+    }
+  }
+}

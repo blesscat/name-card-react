@@ -1,0 +1,25 @@
+.App {
+  padding-top: 3rem; }
+  .App .header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2.5rem;
+    background: #3d3c3c;
+    z-index: 10; }
+    .App .header__title {
+      font-size: 150%;
+      display: block;
+      color: #22c3f4; }
+    .App .header__add-user {
+      position: absolute;
+      cursor: pointer;
+      right: 1rem;
+      font-size: 250%;
+      color: #22c3f4; }
+  .App .cards {
+    display: flex;
+    flex-wrap: wrap; }
